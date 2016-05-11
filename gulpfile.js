@@ -24,7 +24,7 @@ gulp.task('browserSync', function() {
     ];
 
     browserSync.init(files, {
-        proxy: "http://localhost/resume/",
+        proxy: "http://localhost/gamalardi/",
         notify: 'false'
     });
 });

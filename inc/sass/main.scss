@@ -8,6 +8,12 @@
 /* import mixin */
 @import 'utilities/mixin/mixin';
 
+/* link google font: arvo */
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700);
+
+$primary_color: #00AEEF;
+$secondary_color: #333333;
+
 html {
 	height: 100%;
 	@include font-size(14px);
@@ -15,3 +21,20 @@ html {
 body {
 	min-height: 100%;
 }
+
+html,
+body {
+	font-family: 'Arvo', serif;
+}
+/* ************* */
+/* Header */
+
+header {
+	.title {
+		color: $primary_color;
+	}
+	.subtitle {
+		color: $secondary_color;
+	}
+}
+/* ************* */

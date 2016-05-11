@@ -22,8 +22,8 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="text-center col-xs-12 title">Gamal Ardipratama</div>
-				<div class="text-center col-xs-12 role">Front-End Developer</div>
+				<div class="text-center col-xs-12 "><h1 class="title">Gamal Ardipratama</h1></div>
+				<div class="text-center col-xs-12 role"><h3 class="subtitle">Front-End Developer</h3></div>
 			</div>
 		</header>
 
