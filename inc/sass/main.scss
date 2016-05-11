@@ -1,0 +1,17 @@
+/** ********************
+ ** Main Style **
+ ** ******************** **/
+
+/* import bootstrap */
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+/* import mixin */
+@import 'utilities/mixin/mixin';
+
+html {
+	height: 100%;
+	@include font-size(14px);
+}
+body {
+	min-height: 100%;
+}
